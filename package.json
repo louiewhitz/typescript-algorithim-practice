@@ -4,8 +4,9 @@
   "private": true,
   "description": "Code exercise solutions.",
   "scripts": {
-    "prepare": "husky install"
-  },
+    "prepare": "husky install",
+    "build": "tsc"
+    },
   "devDependencies": {
     "eslint": "^8.25.0",
     "eslint-config-standard": "^17.0.0",
@@ -15,9 +16,12 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "markuplint": "^2.10.2",
+    "nodemon": "^2.0.22",
     "react": "^18.2.0",
     "stylelint": "^14.14.0",
     "stylelint-config-recommended": "^9.0.0",
-    "stylelint-config-standard": "^27.0.0"
+    "stylelint-config-standard": "^27.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
   }
 }
